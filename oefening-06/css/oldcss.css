@@ -6,40 +6,34 @@ html {
 
 .laag-1 {
   position: absolute;
-  width: 200px;
   height: 200px;
+  width: 200px;
   top: calc(50% - 200px);
   left: calc(50% - 200px);
   background-color: #ffb703;
-  z-index: 300;
   padding: 10px;
+  z-index: 300;
 }
 
 .laag-2 {
-  background-color: blue;
-  color: white;
-  width: 200px;
+  position: absolute;
   height: 200px;
+  width: 200px;
   top: calc(50% - 150px);
   left: calc(50% - 150px);
-  position: absolute;
+  background-color: #219ebc;
   padding: 10px;
-
   z-index: 200;
 }
 
 .laag-3 {
-  background-color: black;
-  color: white;
-  width: 200px;
-  height: 200px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* top:calc(50% - 100px);
-    left:calc(50% - 100px); */
+  height: 200px;
+  width: 200px;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  background-color: #023047;
+  color: #ffffff;
   padding: 10px;
-
   z-index: 100;
 }
